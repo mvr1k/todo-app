@@ -1,0 +1,11 @@
+.card__wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../../public/Images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXM5Ny1rdC0wNDcxXzEuanBn.jpg");
+  font-family: "Sansita Swashed", cursive;
+}

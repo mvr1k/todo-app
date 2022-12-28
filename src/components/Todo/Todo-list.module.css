@@ -1,0 +1,48 @@
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.main_wrapper {
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.input:focus,
+.btn:focus {
+  outline: none;
+}
+
+.btn {
+  border: none;
+  background-color: bisque;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn__delete {
+  width: calc(100% - 10px);
+  margin: auto;
+  margin-left: 4px;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  background-color: burlywood;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}

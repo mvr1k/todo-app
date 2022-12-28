@@ -1,0 +1,23 @@
+.correct__icon {
+  position: relative;
+  top: 10px;
+  left: 92%;
+  background-image: url("../../../public/Icons/accept.png");
+  background-size: auto;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.delete__icon {
+  position: relative;
+  top: 10px;
+  left: 77%;
+  background-image: url("../../../public/Icons/remove.png");
+  background-size: auto;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
