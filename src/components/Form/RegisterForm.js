@@ -17,9 +17,18 @@ const RegisterForm = () => {
     });
   };
 
-  const submitHandler = (event) => {
+  const submitHandler = async (event) => {
     event.preventDefault();
-    console.log(user);
+    const URL = "";
+    const userData = JSON.stringify(user);
+    const options = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: userData,
+    };
+
+    const response = await fetch(URL, options);
+    console.log(response);
   };
   return (
     <Card>

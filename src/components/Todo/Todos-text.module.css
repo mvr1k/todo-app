@@ -4,3 +4,7 @@
   border-radius: 6px;
   padding: 20px;
 }
+
+.stroke {
+  text-decoration: line-through;
+}
